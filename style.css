@@ -1,0 +1,46 @@
+/*
+<main class="outer-shell">
+    <nav class="inner-shell">
+        <ul>
+            <li class="container"><a href="#one">Link 1</a></li>
+            <li class="container"><a href="#two">Link 2</a></li>
+            <li class="container"><a href="#three">Link 3</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <p>Will the Lakers make the playoffs?</p>
+    </div>
+</main>
+*/
+p {
+  color: #993300;
+}
+
+.container {
+  width: 200px;
+  height: 40px;
+  background-color: #439923;
+  color: #ffffff;
+}
+
+.outer-shell {
+  color: #000000;
+}
+
+.outer-shell .container {
+  background-color: #994422;
+  width: 600px;
+  height: 100px;
+}
+
+.outer-shell li .container {
+  background-image: url("./img/bg/dots.jpg");
+  width: 100%;
+  min-height: 100px;
+  color: red;
+}
+
+.outer-shell li .container a {
+  color: #9f9f9f;
+}
+/*# sourceMappingURL=style.css.map */
